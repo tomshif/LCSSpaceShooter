@@ -16,6 +16,13 @@
 		E2524EE425AF3117006EE73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2524EE225AF3117006EE73C /* Main.storyboard */; };
 		E2524EF025AF3117006EE73C /* SpaceShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524EEF25AF3117006EE73C /* SpaceShooterTests.swift */; };
 		E2524EFB25AF3117006EE73C /* SpaceShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524EFA25AF3117006EE73C /* SpaceShooterUITests.swift */; };
+		E2524F1725AF31E1006EE73C /* EntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F1625AF31E1006EE73C /* EntityClass.swift */; };
+		E2524F1C25AF3226006EE73C /* LevelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F1B25AF3226006EE73C /* LevelClass.swift */; };
+		E2524F2125AF325C006EE73C /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2025AF325C006EE73C /* PlayerClass.swift */; };
+		E2524F2625AF3280006EE73C /* TalentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2525AF3280006EE73C /* TalentClass.swift */; };
+		E2524F2B25AF32AB006EE73C /* HUDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2A25AF32AB006EE73C /* HUDClass.swift */; };
+		E2524F3025AF32CD006EE73C /* PowerUpClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2F25AF32CD006EE73C /* PowerUpClass.swift */; };
+		E2524F3525AF32E8006EE73C /* GameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F3425AF32E8006EE73C /* GameClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		E2524EF625AF3117006EE73C /* SpaceShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2524EFA25AF3117006EE73C /* SpaceShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShooterUITests.swift; sourceTree = "<group>"; };
 		E2524EFC25AF3117006EE73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2524F1625AF31E1006EE73C /* EntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityClass.swift; sourceTree = "<group>"; };
+		E2524F1B25AF3226006EE73C /* LevelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelClass.swift; sourceTree = "<group>"; };
+		E2524F2025AF325C006EE73C /* PlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+		E2524F2525AF3280006EE73C /* TalentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentClass.swift; sourceTree = "<group>"; };
+		E2524F2A25AF32AB006EE73C /* HUDClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDClass.swift; sourceTree = "<group>"; };
+		E2524F2F25AF32CD006EE73C /* PowerUpClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpClass.swift; sourceTree = "<group>"; };
+		E2524F3425AF32E8006EE73C /* GameClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +116,11 @@
 		E2524ED525AF3114006EE73C /* SpaceShooter */ = {
 			isa = PBXGroup;
 			children = (
-				E2524ED625AF3114006EE73C /* AppDelegate.swift */,
-				E2524ED825AF3114006EE73C /* GameScene.sks */,
-				E2524EDA25AF3114006EE73C /* Actions.sks */,
 				E2524EDC25AF3114006EE73C /* GameScene.swift */,
-				E2524EDE25AF3114006EE73C /* ViewController.swift */,
+				E2524F0B25AF311D006EE73C /* Misc Files */,
+				E2524F1525AF31CB006EE73C /* Core Classes */,
 				E2524EE025AF3116006EE73C /* Assets.xcassets */,
-				E2524EE225AF3117006EE73C /* Main.storyboard */,
 				E2524EE525AF3117006EE73C /* Info.plist */,
-				E2524EE625AF3117006EE73C /* SpaceShooter.entitlements */,
 			);
 			path = SpaceShooter;
 			sourceTree = "<group>";
@@ -131,6 +141,33 @@
 				E2524EFC25AF3117006EE73C /* Info.plist */,
 			);
 			path = SpaceShooterUITests;
+			sourceTree = "<group>";
+		};
+		E2524F0B25AF311D006EE73C /* Misc Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2524ED625AF3114006EE73C /* AppDelegate.swift */,
+				E2524ED825AF3114006EE73C /* GameScene.sks */,
+				E2524EDA25AF3114006EE73C /* Actions.sks */,
+				E2524EDE25AF3114006EE73C /* ViewController.swift */,
+				E2524EE225AF3117006EE73C /* Main.storyboard */,
+				E2524EE625AF3117006EE73C /* SpaceShooter.entitlements */,
+			);
+			path = "Misc Files";
+			sourceTree = "<group>";
+		};
+		E2524F1525AF31CB006EE73C /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2524F1625AF31E1006EE73C /* EntityClass.swift */,
+				E2524F1B25AF3226006EE73C /* LevelClass.swift */,
+				E2524F2025AF325C006EE73C /* PlayerClass.swift */,
+				E2524F2525AF3280006EE73C /* TalentClass.swift */,
+				E2524F2A25AF32AB006EE73C /* HUDClass.swift */,
+				E2524F2F25AF32CD006EE73C /* PowerUpClass.swift */,
+				E2524F3425AF32E8006EE73C /* GameClass.swift */,
+			);
+			path = "Core Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +301,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2524F2B25AF32AB006EE73C /* HUDClass.swift in Sources */,
+				E2524F1C25AF3226006EE73C /* LevelClass.swift in Sources */,
+				E2524F3525AF32E8006EE73C /* GameClass.swift in Sources */,
 				E2524EDF25AF3114006EE73C /* ViewController.swift in Sources */,
+				E2524F2625AF3280006EE73C /* TalentClass.swift in Sources */,
+				E2524F3025AF32CD006EE73C /* PowerUpClass.swift in Sources */,
 				E2524EDD25AF3114006EE73C /* GameScene.swift in Sources */,
+				E2524F2125AF325C006EE73C /* PlayerClass.swift in Sources */,
 				E2524ED725AF3114006EE73C /* AppDelegate.swift in Sources */,
+				E2524F1725AF31E1006EE73C /* EntityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
