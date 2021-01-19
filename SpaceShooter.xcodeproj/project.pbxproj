@@ -23,6 +23,9 @@
 		E2524F2B25AF32AB006EE73C /* HUDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2A25AF32AB006EE73C /* HUDClass.swift */; };
 		E2524F3025AF32CD006EE73C /* PowerUpClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F2F25AF32CD006EE73C /* PowerUpClass.swift */; };
 		E2524F3525AF32E8006EE73C /* GameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2524F3425AF32E8006EE73C /* GameClass.swift */; };
+		E2F2930125B4E3BE0086F898 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2930025B4E3BE0086F898 /* random.swift */; };
+		E2F2930625B4E3E50086F898 /* Definitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2930525B4E3E50086F898 /* Definitions.swift */; };
+		E2F2930C25B4E73F0086F898 /* EntityClassExtensions.txt in Resources */ = {isa = PBXBuildFile; fileRef = E2F2930B25B4E73F0086F898 /* EntityClassExtensions.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		E2524F2A25AF32AB006EE73C /* HUDClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDClass.swift; sourceTree = "<group>"; };
 		E2524F2F25AF32CD006EE73C /* PowerUpClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUpClass.swift; sourceTree = "<group>"; };
 		E2524F3425AF32E8006EE73C /* GameClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameClass.swift; sourceTree = "<group>"; };
+		E2F2930025B4E3BE0086F898 /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
+		E2F2930525B4E3E50086F898 /* Definitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definitions.swift; sourceTree = "<group>"; };
+		E2F2930B25B4E73F0086F898 /* EntityClassExtensions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EntityClassExtensions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				E2524EDC25AF3114006EE73C /* GameScene.swift */,
+				E2F292FF25B4E3A60086F898 /* Helper Files */,
 				E2524F0B25AF311D006EE73C /* Misc Files */,
 				E2524F1525AF31CB006EE73C /* Core Classes */,
+				E2F2930A25B4E5620086F898 /* Data Files */,
 				E2524EE025AF3116006EE73C /* Assets.xcassets */,
 				E2524EE525AF3117006EE73C /* Info.plist */,
 			);
@@ -168,6 +176,23 @@
 				E2524F3425AF32E8006EE73C /* GameClass.swift */,
 			);
 			path = "Core Classes";
+			sourceTree = "<group>";
+		};
+		E2F292FF25B4E3A60086F898 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F2930025B4E3BE0086F898 /* random.swift */,
+				E2F2930525B4E3E50086F898 /* Definitions.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		E2F2930A25B4E5620086F898 /* Data Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F2930B25B4E73F0086F898 /* EntityClassExtensions.txt */,
+			);
+			path = "Data Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +302,7 @@
 				E2524EE125AF3116006EE73C /* Assets.xcassets in Resources */,
 				E2524EDB25AF3114006EE73C /* Actions.sks in Resources */,
 				E2524EE425AF3117006EE73C /* Main.storyboard in Resources */,
+				E2F2930C25B4E73F0086F898 /* EntityClassExtensions.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,11 +331,13 @@
 				E2524F1C25AF3226006EE73C /* LevelClass.swift in Sources */,
 				E2524F3525AF32E8006EE73C /* GameClass.swift in Sources */,
 				E2524EDF25AF3114006EE73C /* ViewController.swift in Sources */,
+				E2F2930625B4E3E50086F898 /* Definitions.swift in Sources */,
 				E2524F2625AF3280006EE73C /* TalentClass.swift in Sources */,
 				E2524F3025AF32CD006EE73C /* PowerUpClass.swift in Sources */,
 				E2524EDD25AF3114006EE73C /* GameScene.swift in Sources */,
 				E2524F2125AF325C006EE73C /* PlayerClass.swift in Sources */,
 				E2524ED725AF3114006EE73C /* AppDelegate.swift in Sources */,
+				E2F2930125B4E3BE0086F898 /* random.swift in Sources */,
 				E2524F1725AF31E1006EE73C /* EntityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

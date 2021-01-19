@@ -12,6 +12,19 @@ class EntityClass
 {
     // Variables
     
+    var sprite=SKSpriteNode()
+    var engineSprite=SKSpriteNode()
+    var laserSprite=SKSpriteNode()
+    
+    var speed:CGFloat=0
+    var turnRate:CGFloat=0
+    
+    var colorTint=NSColor()
+    
+    var isAlive:Bool=false
+    
+    var currentState:Int=ENTSTATE.PURSUE
+    
     
     // Constants
     
@@ -23,5 +36,15 @@ class EntityClass
     {
         
     } // init()
+    
+    func pursue()
+    {
+        
+    }
+    
+    func update()
+    {
+        
+    }
     
 } // EntityClass

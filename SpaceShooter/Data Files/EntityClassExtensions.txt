@@ -1,0 +1,22 @@
+!  EntityClass Extensions
+
+! NOTES: 
+! - All lines that start with ! are comments.
+! - Each entry should be entirely on one line.
+! - String values are NOT in quotation marks.
+! - All entries MUST be exactly in the format listed in the key (every value must be present).
+! - ANY time that there is a change to the core EntityClass, this data file may need to be updated.
+! - Any changes to data file format MUST be approved by Lead.
+
+! KEY
+! - sprite name (string)
+! - thrust sprite name (string)
+! - laser sprite name (string)
+! - speed (CGFloat)
+! - turn rate (CGFloat)
+! - color (red - CGFloat)
+! - color (green - CGFloat)
+! - color (blue - CGFloat)
+
+
+

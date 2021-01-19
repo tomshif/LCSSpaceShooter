@@ -10,8 +10,14 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    var currentState:Int = -1
 
+    
+    
     override func didMove(to view: SKView) {
+        currentState=GAMESTATE.LOADING
+        
+        
         
     }
     
@@ -48,6 +54,8 @@ class GameScene: SKScene {
         }
     }
     
+    
+
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
